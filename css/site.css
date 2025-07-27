@@ -1,0 +1,159 @@
+html,
+body {
+    height: 100%;
+
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+#div-video{width: 310px;
+
+}
+
+.wrap {
+    background-color: palegoldenrod;
+}
+
+.navbar-header{
+
+
+}
+.panel-default {
+    border-color: #DED792;
+}
+.panel-default hr {
+    border-top: 1px solid #D0C881;
+}
+.panel-body, .panel {
+    background-color: #DED792;
+}
+
+.video-description
+{
+    background-color: #DAD497;
+    padding: 10px 0 1px 10px;
+    color: dimgrey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.panel-default > .panel-heading {
+    font-weight:bold;
+}
+.panel-default > .panel-heading,
+.navbar-inverse {
+    background-color: #EAB00B;
+}
+.navbar-inverse {
+    border-color: #EAB00B;
+}
+.navbar-inverse a.navbar-brand,
+.navbar-inverse ul > li > a,
+.navbar-inverse form button {
+    color: #504D4D !important;
+    font-weight: bold;
+}
+.navbar-inverse ul > li > a:hover,
+.navbar-inverse form button:hover {
+    text-decoration: underline;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active:hover > a {
+    background-color: #CC9807;
+}
+
+.all-comments .panel-body {
+    background-color: #CAC278;
+}
+.all-comments .panel-footer {
+    border-top: 0;
+}
+
+.panel-footer{
+        background-color: palegoldenrod;
+}
