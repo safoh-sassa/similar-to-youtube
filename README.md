@@ -1,4 +1,4 @@
-URL: localhost/ast_16/WEB/index.php
+URL: localhost/similar-to-youtube/WEB/index.php
 
 Administrator User: ms79ms@gmail.com
 Password : 1234
